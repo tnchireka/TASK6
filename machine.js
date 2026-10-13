@@ -43,13 +43,6 @@ for(let i=3;i>=1;i--){
     console.log(i)
 }
 console.log("Your Item Is Ready!");
-for(let row=1;row<=itemno;row++){
-    let line="";
-    for (let col=1;col<=row;col++)
-    {line=line+"*";
-    }
-    console.log(line);
-}
 }
 showmenu();
 buy();
